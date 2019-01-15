@@ -12,4 +12,4 @@ Created on Wed Jan  2 09:00:52 2019
 """
 
 from .computations import *
-import bayesianmethods
+from .bayesianmethods import *
