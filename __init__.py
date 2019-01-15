@@ -12,5 +12,5 @@ Created on Wed Jan  2 09:00:52 2019
 """
 
 from .computations import *
-from .bayesianmethods.stan_utility import *
-from .bayesianmethods.HDIofMCMC import *
+from .bayes.stan_utility import *
+from .bayes.HDIofMCMC import *
