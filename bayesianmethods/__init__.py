@@ -11,3 +11,4 @@ Created on Tue Jan 15 12:04:13 2019
 @author: peterkraemer
 """
 from .stan_utility import *
+from .HDIofMCMC import *
