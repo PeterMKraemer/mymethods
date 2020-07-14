@@ -15,4 +15,5 @@ from .computations import *
 from .bayes.stan_utility import *
 from .bayes.HDIofMCMC import *
 from .plotting.hide_spines import *
-from .cognitivemodels.DDM import *
+from .cognitive_models.DDM import *
+from .utils.transformation_functions import *
