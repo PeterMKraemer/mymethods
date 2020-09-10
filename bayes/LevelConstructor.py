@@ -1,4 +1,6 @@
 import pandas as pd
+import numpy as np
+
 
 def LevelConstructor(data, breakerVariable):
     ll = np.zeros(len(data))
