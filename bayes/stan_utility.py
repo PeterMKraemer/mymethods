@@ -140,3 +140,10 @@ def compile_model(filename, model_name=None, **kwargs):
         else:
             print("Using cached StanModel")
         return sm
+
+
+def RunDiagnostics(fit,subjID='all'):
+    print("-> Diagnostics")
+    check_treedepth(fit)
+    check_energy(fit)
+    check_div(fit)
