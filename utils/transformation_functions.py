@@ -13,6 +13,6 @@ def Z(x):
 def Phi(x):
     y = norm.cdf(x)
     return y
-def PhiInv(x)
+def PhiInv(x):
     y = norm.ppf(x)
     return y
