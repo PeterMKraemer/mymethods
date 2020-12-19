@@ -1,4 +1,5 @@
 import numpy as np
+from scipy.stats import norm
 
 def SoftPlus(x):
     y = np.log(1+np.exp(x))
@@ -9,3 +10,9 @@ def SoftPlusInv(x):
 def Z(x):
     z = (x - np.mean(x)) / np.std(x)
     return z
+def Phi(x):
+    y = norm.cdf(x)
+    return y
+def PhiInv(x)
+    y = norm.ppf(x)
+    return y
